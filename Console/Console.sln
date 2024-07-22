@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Console", "Console\Console.vcxproj", "{E766A7FD-D58B-42C8-A4C3-04B1E410103E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. 연산자 + 반복문", "03. 연산자 + 반복문", "{56D7DA98-E874-4996-A8D7-404D870FEEF9}"
+	ProjectSection(SolutionItems) = preProject
+		Console\Example_03.cpp = Console\Example_03.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. 프로젝트 생성 + 입출력", "01. 프로젝트 생성 + 입출력", "{A3BE04A1-94C0-46E0-A8F6-1B02C9485686}"
+	ProjectSection(SolutionItems) = preProject
+		Console\Example_01.cpp = Console\Example_01.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_자료형 + 변", "02_자료형 + 변", "{D0AA7E4B-F769-4EA6-BE93-94D6CAECAB01}"
+	ProjectSection(SolutionItems) = preProject
+		Console\Example_02.cpp = Console\Example_02.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. 조건문", "04. 조건문", "{EC3038D8-33B4-4108-8248-5C154C032D68}"
+	ProjectSection(SolutionItems) = preProject
+		Console\Example04_B.cpp = Console\Example04_B.cpp
+		Console\Example_04.cpp = Console\Example_04.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. 함수 변,상수 전처리기", "05. 함수 변,상수 전처리기", "{D27EC296-E38C-4541-8725-2CF3A07E799D}"
+	ProjectSection(SolutionItems) = preProject
+		Console\Example_05.cpp = Console\Example_05.cpp
+		Example_05_B.cpp = Example_05_B.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Debug|x64.ActiveCfg = Debug|x64
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Debug|x64.Build.0 = Debug|x64
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Debug|x86.Build.0 = Debug|Win32
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Release|x64.ActiveCfg = Release|x64
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Release|x64.Build.0 = Release|x64
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Release|x86.ActiveCfg = Release|Win32
+		{E766A7FD-D58B-42C8-A4C3-04B1E410103E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FF93586-BE14-4FAB-B384-A81E08266436}
+	EndGlobalSection
+EndGlobal
