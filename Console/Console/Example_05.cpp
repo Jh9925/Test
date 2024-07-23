@@ -104,10 +104,10 @@ void OutputValueA();
 void OutputValueB(int numA);
 void OutputValueC(int numA, int numB );
 
-// 문자열 (반환 o / 반환 x)
-void OutputString(string str);
-void OutputStringFunc(string strA, string strB);
-void cheakingString(string strA, string strB);
+// 문자열 (입력 o / 반환 x)
+string GetStringFunc(string strA, string strB);
+string OutputStringFunc(string strA);
+int cheakingString(string strA, string strB);
 
 // 반환값이 존재 (int)
 int GetaddValue(int numA, int numB);
@@ -151,16 +151,16 @@ void main()
 	OutputValueB(5);
 	OutputValueC(1, 9);
 
-	OutputString(" 과제가 너무 재밌다.");
+	OutputStringFunc(" 과제가 너무 재밌다.");
 
 	int nReslutA = GetaddValue(18, 25);
 
 	OutputValueB(nReslutA);
 
 	string sResultB = GetStringFunc("좋네", "좋아");
-	OutputString(sResultB);
+	OutputStringFunc(sResultB);
 
-	nReslutA = CheakingString(" 과제가 너무 재밌다.", " 과제가 너무 재밌다.");
+	sResultB = cheakingString(" 과제가 너무 재밌다.", " 과제가 너무 재밌다.");
 	OutputValueB(nReslutA);
 
 	cout << '\n';
@@ -264,10 +264,12 @@ void OutputValueC(int numA, int numB)
 	cout << numA << numB << endl;
 }
 
-void OutputString(string str)
+string OutputStringFunc(string str)
 {
 	cout << str << endl;
 }
+
+
 
 string GetStringFunc(string strA, string strB)
 {
@@ -278,10 +280,9 @@ string GetStringFunc(string strA, string strB)
 	return strA + strB;
 	//return strA.append(strB);		스트링 안쓰고 하는법
 
-
 }
 
-int CheakingString(string strA, string strB)
+int cheakingString(string strA, string strB)
 {
 	//같으면 1 / 다르면 0
 	return strA == strB;
