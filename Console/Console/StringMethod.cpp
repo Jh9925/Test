@@ -105,5 +105,8 @@ void StringCopy()
 	string str = "Hello world";
 	string dest = str; // 복사
 	cout << "복사된 문자열 " << dest << endl;
-
 }
+
+
+
+
