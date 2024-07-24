@@ -9,8 +9,8 @@ int main()
 	random_device rd;
 	mt19937 gen(rd());
 	uniform_int_distribution<> dist(1, 10);
-	int num1, num2, num3;
-	int number[10];
+	
+	int number[11] = {1, };
 
 #pragma region 
 
@@ -72,14 +72,14 @@ int main()
 
 #pragma endregion 배열 2
 	int player, computer;
-	int comNum[3];
-	int playerNum[3];
+	int comNum[3] = {};
+	int playerNum[3] = {};
 	int ball = 0, strike = 0, out = 0;
 
 	// 배열에 숫자 넣기.
-	for (int i = 0; i < 10; i += 1)
+	for (int i = 0; i < 10; i++ )
 	{
-		number[i] = i + 1;
+		number[i+1] = i+1;
 	}
 
 	while (out < 3)
@@ -87,13 +87,35 @@ int main()
 		while (strike < 3)
 		{
 			
+			for (int i = 0; i < 11; i += 1)
+			{
+				cout << number[i] << endl;
+			}
+			
+			
 			
 			// 컴퓨터 3개 랜덤
+			for (int i = 1; i < 9; ++i)
+			{
+				int num1 = 0, num2 = 0;
+				num2 = dist(gen);
+				// 셔플 
+				num1 = number[i-1];
+				number[i-1] = number[num2];
+				number[num2] = num1;
+				//cout << "난수 " << num2 << endl;
+
+			}
 
 			for (int i = 0; i < 3; i++)
 			{
-				comNum[i] = dist(gen);
+				comNum[i] = number[i];
 			}
+			
+			/*for (int i = 0; i < 3; i++)
+			{
+				comNum[i] = dist(gen);
+			}*/
 				
 			// comNum[0] = dist(gen);
 			// comNum[1] = dist(gen);
@@ -231,3 +253,4 @@ ex ) 5, 3, 1 나 1, 2, 3 중복되는 수 1 ,3 자리는 다르고 숫자가 같으면 볼 자리 숫�
 			//{
 			//	comNum[i] = number[i];
 			//}
+
