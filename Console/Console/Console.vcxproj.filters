@@ -5,84 +5,100 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="01. 프로젝트 생성 + 입 /출력">
+      <UniqueIdentifier>{cf0e7444-a732-4d7f-9430-2fc2e6be83b0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="02. 자료형 + 변수">
+      <UniqueIdentifier>{1fb98c5b-382a-4868-b5d6-579b40dc4931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. 연산자 + 반복문">
+      <UniqueIdentifier>{beb577c7-8f78-432d-beae-5026b1baf817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. 조건문">
+      <UniqueIdentifier>{5626f6d9-70fa-4f18-a2d4-8fb567c9abbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. 함수 변,상수 전처리기">
+      <UniqueIdentifier>{dfc8c240-1e01-45cb-ac98-f58c253c196d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="과제들%255c">
+      <UniqueIdentifier>{a4c35ef7-f21d-417d-9366-7d90cdef6e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. 배열 + 문자열">
+      <UniqueIdentifier>{4a3a0cb9-d159-4fc5-97c5-22a94e8284d4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example_01.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>01. 프로젝트 생성 + 입 /출력</Filter>
     </ClCompile>
     <ClCompile Include="Example_02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7_17 work3%28ran%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7_17 work1 chardot.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7_17 work2 item.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>02. 자료형 + 변수</Filter>
     </ClCompile>
     <ClCompile Include="Example_03.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7_18 work .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Test__.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>03. 연산자 + 반복문</Filter>
     </ClCompile>
     <ClCompile Include="Example_04.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>04. 조건문</Filter>
     </ClCompile>
     <ClCompile Include="Example04_B.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7_19 work.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>04. 조건문</Filter>
     </ClCompile>
     <ClCompile Include="Example_05.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>05. 함수 변,상수 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Example_05_B.cpp">
+      <Filter>05. 함수 변,상수 전처리기</Filter>
+    </ClCompile>
+    <ClCompile Include="7_17 work1 chardot.cpp">
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="7_17 work2 item.cpp">
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="7_18 work .cpp">
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="7_17 work3%28ran%29.cpp">
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="7_19 work.cpp">
+      <Filter>과제들%255c</Filter>
     </ClCompile>
     <ClCompile Include="7_22 work.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>과제들%255c</Filter>
     </ClCompile>
     <ClCompile Include="7_22 work_2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex_07 .cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>과제들%255c</Filter>
     </ClCompile>
     <ClCompile Include="7_23 work.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex_07_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="numBaseball_.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex_08.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Char and String .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StringMethod.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FuncOver.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>과제들%255c</Filter>
     </ClCompile>
     <ClCompile Include="7_24 work .cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="Char and String .cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_07 .cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_07_1.cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_08.cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="numBaseball_.cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncOver.cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="StringMethod.cpp">
+      <Filter>06. 배열 + 문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="Test__.cpp">
+      <Filter>06. 배열 + 문자열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
