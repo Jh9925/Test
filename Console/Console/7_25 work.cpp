@@ -41,7 +41,7 @@ struct Card
 {
 	string mark; // 카드무늬
 	int num;	// 카드 번호
-	bool used;	// 카드 사용 여부
+	// bool used;	// 카드 사용 여부   이거말고 다른거로
 };
 
 // 총 카드의 갯수 52 장
@@ -100,7 +100,7 @@ void resetCard(Card card[])
 		{
 			card[index].mark = marks[m];
 			card[index].num = i;
-			card[index].used = false;
+			// card[index].used = false;  이거말고 다른거로
 			index++;
 		}
 	}
@@ -150,7 +150,7 @@ void playGame()
 	int round = 0;
 	int numUsedCard = 0;
 	int money = 10000; // 초기 소지 금액
-	int minBet = 100; // 최소 배팅 금액
+	int minBet = 1000; // 최소 배팅 금액
 	int bet;
 
 	Card deck[52]; // 52개 카드 선언
