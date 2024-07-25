@@ -172,7 +172,11 @@ void main() {
 	cout << "정수 입력" << endl;
 	cin >> k;
 	int k_1 = 1, k_2 = 0;
-	while (k<11 && k> -11)
+	while (k<11 
+	
+	
+	
+	& k> -11)
 	{
 		while (k_2 > -10)
 		{

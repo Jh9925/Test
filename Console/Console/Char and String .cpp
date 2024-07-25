@@ -18,23 +18,23 @@ int main()
 
 
 
-	//char str[50];
+	char str[50];
 
-	//// 문자열 복사.
-	//strcpy_s(str, "Hello World");
-	//cout << str << endl;
+	// 문자열 복사.
+	strcpy_s(str, "Hello World");
+	cout << str << endl;
 
-	//// 문자열 길이 출력
-	//cout << strlen(str) << endl;
+	// 문자열 길이 출력
+	cout << strlen(str) << endl;
 
-	//char str1[] = "Hello";
+	char str1[] = "Hello";
 
-	//for (int i = 0; str1[i] != '\0'; ++i)
-	//{
-	//	cout << "문자" << i << ": "<< str1[i] << endl;
-	//}
+	for (int i = 0; str1[i] != '\0'; ++i)
+	{
+		cout << "문자" << i << ": "<< str1[i] << endl;
+	}
 
-	// strcat_s    문자열을 붙이는 함수   연결시켜준다.
+	 // strcat_s    문자열을 붙이는 함수   연결시켜준다.
 
 	/*char str3[50] = "Hello, ";
 	char str4[] = "world ";
