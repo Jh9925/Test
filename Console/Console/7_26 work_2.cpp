@@ -52,7 +52,7 @@ void printPuzzle(int puzzle[4][4])
 
 
 
-/*
+// 여기부터 생각하기 √
 
 void moveTile(int puzzle[4][4], char direction)
 {
@@ -127,6 +127,8 @@ int main()
 
     return 0;
 }
+
+/*
 설명
 PUZZLE 함수: 퍼즐 배열을 초기화합니다.
 printPuzzle 함수: 현재 퍼즐 상태를 출력합니다.
@@ -138,10 +140,6 @@ main 함수:
 사용자로부터 입력을 받아 빈칸을 이동시키며 퍼즐을 업데이트합니다.
 'q'를 입력하면 게임을 종료합니다.
 이 코드는 퍼즐을 초기화하고, 사용자 입력에 따라 퍼즐을 조작하여 빈칸을 이동시키며 퍼즐 상태를 업데이트합니다.
-
-
-
-
 */
 
 
@@ -151,14 +149,10 @@ main 함수:
 
 
 
-int main()
-{
-	int puzzle[4][4];
-	PUZZLE(puzzle);
-	puzzle[3][3] = -1;
-	printPuzzle(puzzle);
 
 
-}
+
+
+
 
 
