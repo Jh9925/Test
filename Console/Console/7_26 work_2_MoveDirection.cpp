@@ -12,50 +12,50 @@ using namespace std;
 // 퍼즐 판 세팅
 void PuzzleSet(int puzzle[4][4])
 {
-	// 숫자 배열 1개만들기
-	int num[16];
-	for (int i = 0; i < 16; i++)
-	{
-		num[i] = i +1 ;
-	}
-	
-	// 퍼즐에 숫자 넣기
-	int index =0 ;
-	for (int i = 0; i < 4; i++)
-	{
-		for (int j = 0; j < 4; j++)
-		{
-			puzzle[i][j] = num[index];
-			index++;
-		}
-	}
+    // 숫자 배열 1개만들기
+    int num[16];
+    for (int i = 0; i < 16; i++)
+    {
+        num[i] = i + 1;
+    }
+
+    // 퍼즐에 숫자 넣기
+    int index = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            puzzle[i][j] = num[index];
+            index++;
+        }
+    }
 }
 
 // 퍼즐판 출력
 void printPuzzle(int puzzle[4][4])
 {
-	cout << "슬라이드 퍼즐" << endl;
-	for (int i = 0; i < 4; i++)
-	{
-		for (int j = 0; j < 4; j++)
-		{
-			if (puzzle[i][j] == -1)
-			{
-				cout << " *  "; // 마킹된 번호는 '*'로 표시합니다.
-			}
-			else
-			{
-				cout << puzzle[i][j];
+    cout << "슬라이드 퍼즐" << endl;
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            if (puzzle[i][j] == -1)
+            {
+                cout << " *  "; // 마킹된 번호는 '*'로 표시합니다.
+            }
+            else
+            {
+                cout << puzzle[i][j];
 
-				if (puzzle[i][j] < 10)
-				{
-					cout << " "; // 1자리 숫자의 경우 추가 공백
-				}
-				cout << "  ";
-			}
-		}
-		cout << endl;
-	}
+                if (puzzle[i][j] < 10)
+                {
+                    cout << " "; // 1자리 숫자의 경우 추가 공백
+                }
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
 }
 
 
@@ -64,7 +64,7 @@ void printPuzzle(int puzzle[4][4])
 //  움직이기!
 void moveTile(int puzzle[4][4], char direction)
 {
-    
+
     // 빈칸 위치 찾기
     int empty_i, empty_j;
     for (int i = 0; i < 4; i++)
@@ -135,35 +135,3 @@ int main()
 
     return 0;
 }
-
-
-/*
-
-설명
-PuzzleSet 함수: 퍼즐 배열을 초기화합니다.
-printPuzzle 함수: 현재 퍼즐 상태를 출력합니다.
-moveTile 함수: 사용자 입력에 따라 빈칸을 이동시킵니다.
-빈칸의 위치를 찾고, 사용자가 입력한 방향에 따라 빈칸을 이동합니다.
-이동할 수 없는 경우 메시지를 출력합니다.
-main 함수:
-퍼즐을 초기화하고 빈칸을 설정합니다.
-사용자로부터 입력을 받아 빈칸을 이동시키며 퍼즐을 업데이트합니다.
-'q'를 입력하면 게임을 종료합니다.
-이 코드는 퍼즐을 초기화하고, 사용자 입력에 따라 퍼즐을 조작하여 빈칸을 이동시키며 퍼즐 상태를 업데이트합니다.
-
-
-
-
-*/
-
-//int main()
-//{
-//	int puzzle[4][4];
-//	PUZZLE(puzzle);
-//	puzzle[3][3] = -1;
-//	printPuzzle(puzzle);
-//
-//
-//}
-
-

@@ -2,11 +2,6 @@
 #include<iostream>
 using namespace std;
 
-
-
-
-
-
 #pragma region enumClass
 /*
  enum clss
