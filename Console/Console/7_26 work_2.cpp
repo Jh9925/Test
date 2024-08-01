@@ -12,50 +12,50 @@ using namespace std;
 // 퍼즐 판 세팅
 void PuzzleSet(int puzzle[4][4])
 {
-	// 숫자 배열 1개만들기
-	int num[16];
-	for (int i = 0; i < 16; i++)
-	{
-		num[i] = i +1 ;
-	}
-	
-	// 퍼즐에 숫자 넣기
-	int index =0 ;
-	for (int i = 0; i < 4; i++)
-	{
-		for (int j = 0; j < 4; j++)
-		{
-			puzzle[i][j] = num[index];
-			index++;
-		}
-	}
+    // 숫자 배열 1개만들기
+    int num[16];
+    for (int i = 0; i < 16; i++)
+    {
+        num[i] = i + 1;
+    }
+
+    // 퍼즐에 숫자 넣기
+    int index = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            puzzle[i][j] = num[index];
+            index++;
+        }
+    }
 }
 
 // 퍼즐판 출력
 void printPuzzle(int puzzle[4][4])
 {
-	cout << "슬라이드 퍼즐" << endl;
-	for (int i = 0; i < 4; i++)
-	{
-		for (int j = 0; j < 4; j++)
-		{
-			if (puzzle[i][j] == -1)
-			{
-				cout << " *  "; // 마킹된 번호는 '*'로 표시합니다.
-			}
-			else
-			{
-				cout << puzzle[i][j];
+    cout << "슬라이드 퍼즐" << endl;
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            if (puzzle[i][j] == -1)
+            {
+                cout << " *  "; // 마킹된 번호는 '*'로 표시합니다.
+            }
+            else
+            {
+                cout << puzzle[i][j];
 
-				if (puzzle[i][j] < 10)
-				{
-					cout << " "; // 1자리 숫자의 경우 추가 공백
-				}
-				cout << "  ";
-			}
-		}
-		cout << endl;
-	}
+                if (puzzle[i][j] < 10)
+                {
+                    cout << " "; // 1자리 숫자의 경우 추가 공백
+                }
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
 }
 
 
@@ -64,7 +64,7 @@ void printPuzzle(int puzzle[4][4])
 //  움직이기!
 void moveTile(int puzzle[4][4], char direction)
 {
-    
+
     // 빈칸 위치 찾기
     int empty_i, empty_j;
     for (int i = 0; i < 4; i++)
@@ -114,29 +114,25 @@ void moveTile(int puzzle[4][4], char direction)
 
 int main()
 {
+    // 퍼즐판 세팅
     int Puzzle[4][4];
+    // 퍼즐판 출력
     PuzzleSet(Puzzle);
+
     Puzzle[3][3] = -1;
 
     while (true)
     {
         printPuzzle(Puzzle);
-        cout << "이동할 방향을 입력하세요 (w: 위, s: 아래, a: 왼쪽, d: 오른쪽, q: 종료): ";
+        cout << "이동할 방향을 입력하세요 (w: 위, s: 아래, a: 왼쪽, d: 오른쪽): ";
         char direction;
         cin >> direction;
-
-        if (direction == 'q')
-        {
-            break;
-        }
 
         moveTile(Puzzle, direction);
     }
 
     return 0;
 }
-
-
 /*
 
 설명

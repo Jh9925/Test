@@ -26,6 +26,9 @@
     <Filter Include="06. 배열 + 문자열">
       <UniqueIdentifier>{4a3a0cb9-d159-4fc5-97c5-22a94e8284d4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="07. 사용자정의 자료형">
+      <UniqueIdentifier>{391a8c0e-0017-464c-ac9c-7c9accb68fea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example_01.cpp">
@@ -100,25 +103,34 @@
     <ClCompile Include="Test__.cpp">
       <Filter>06. 배열 + 문자열</Filter>
     </ClCompile>
-    <ClCompile Include="7_25 work.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7_26 work.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="GP.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="UserDefineTypes_Enum.cpp">
+    <ClCompile Include="Pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="UserDefineTypes_EnumClass.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="7_25 work.cpp">
+      <Filter>과제들%255c</Filter>
     </ClCompile>
-    <ClCompile Include="UserDefineTypes_struct .cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="7_26 work.cpp">
+      <Filter>과제들%255c</Filter>
     </ClCompile>
     <ClCompile Include="7_26 work_2.cpp">
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDefineTypes_Enum.cpp">
+      <Filter>07. 사용자정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDefineTypes_EnumClass.cpp">
+      <Filter>07. 사용자정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDefineTypes_struct .cpp">
+      <Filter>07. 사용자정의 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayPointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8_01 work.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

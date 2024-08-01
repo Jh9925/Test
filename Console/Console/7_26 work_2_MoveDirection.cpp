@@ -114,21 +114,19 @@ void moveTile(int puzzle[4][4], char direction)
 
 int main()
 {
+    // 퍼즐판 세팅
     int Puzzle[4][4];
-    PuzzleSet(Puzzle);
+    // 퍼즐판 출력
+    // PuzzleSet(Puzzle);
+
     Puzzle[3][3] = -1;
 
     while (true)
     {
         printPuzzle(Puzzle);
-        cout << "이동할 방향을 입력하세요 (w: 위, s: 아래, a: 왼쪽, d: 오른쪽, q: 종료): ";
+        cout << "이동할 방향을 입력하세요 (w: 위, s: 아래, a: 왼쪽, d: 오른쪽): ";
         char direction;
         cin >> direction;
-
-        if (direction == 'q')
-        {
-            break;
-        }
 
         moveTile(Puzzle, direction);
     }
