@@ -170,6 +170,7 @@ int main()
 	array = nullptr;	// 오류 예방법
 
 
+	// 이중 포인터
 	int num = 10;
 	int* p = &num;
 	*p = 7777;
