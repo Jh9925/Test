@@ -68,7 +68,7 @@ void outputInfo(Student(&student)[maxNum])
 {
 	for (int i = 0; i < index; i++)
 	{
-		cout << i << " 번학생 이름과 나이 : " << student[i].name << " , " << student[i].age << endl;
+		cout << i << " 번 학생 이름과 나이 : " << student[i].name << " , " << student[i].age << endl;
 
 	}
 }

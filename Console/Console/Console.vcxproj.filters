@@ -29,6 +29,12 @@
     <Filter Include="07. 사용자정의 자료형">
       <UniqueIdentifier>{391a8c0e-0017-464c-ac9c-7c9accb68fea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="08. 포인터">
+      <UniqueIdentifier>{8f455ef8-b4cf-4246-95a2-31921a9d2ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. 클래스">
+      <UniqueIdentifier>{1be06555-b0bd-4903-96b5-be4ceb50807a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example_01.cpp">
@@ -106,9 +112,6 @@
     <ClCompile Include="GP.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="7_25 work.cpp">
       <Filter>과제들%255c</Filter>
     </ClCompile>
@@ -128,10 +131,37 @@
       <Filter>07. 사용자정의 자료형</Filter>
     </ClCompile>
     <ClCompile Include="arrayPointer.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>08. 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer.cpp">
+      <Filter>08. 포인터</Filter>
     </ClCompile>
     <ClCompile Include="8_01 work.cpp">
+      <Filter>과제들%255c</Filter>
+    </ClCompile>
+    <ClCompile Include="08_02 work.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08_02 work_ver2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08_02 work2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08_02 work2_ver2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Class01.cpp">
+      <Filter>09. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="class02.cpp">
+      <Filter>09. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="class03.cpp">
+      <Filter>09. 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="class04.cpp">
+      <Filter>09. 클래스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
