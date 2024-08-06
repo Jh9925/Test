@@ -14,11 +14,12 @@ public:
     void TextColor(int font, int backGround);
 
     
+    
 
 private:
     // Player createPlayer();
     // void battle(Player& player, Monster& monster);
     // Monster* getRandomMonster();
-
+    int i = 0, j = 0;
    
 };

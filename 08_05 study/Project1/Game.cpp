@@ -54,7 +54,7 @@ int Game::start()
     }
 
     // 랜덤 적 조우
-    int i=0 ,j = 0;
+    
     while (i<100)
     {
         // 몬스터 셋팅 
@@ -347,6 +347,8 @@ void Game::TextColor(int font, int backGround)
      int Color = font + backGround * 16;
      SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), Color);
 }
+
+
 
 //Player Game::createPlayer()
 //{

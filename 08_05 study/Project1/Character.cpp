@@ -1,5 +1,4 @@
 #include "Character.h"
-
 #include <iostream>
 
 Character::Character(const string& name, int hp, int atk, int def)
